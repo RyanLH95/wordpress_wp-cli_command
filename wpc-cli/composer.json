@@ -1,0 +1,17 @@
+{
+    "name": "ryanhenry/wpc-cli",
+    "autoload": {
+        "psr-4": {
+            "Ryanhenry\\WpcCli\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ryan Henry",
+            "email": "126239094+RyanLH95@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.23"
+    }
+}
