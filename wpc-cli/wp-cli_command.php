@@ -8,5 +8,13 @@
  * Author URI: https://ryanhenry.co.uk
  */
 
+if (defined('WP_CLI') && WP_CLI) {
+
  require_once plugin_dir_path(__FILE__) . '/vendor/fakerphp/faker/src/
  autoload.php';
+
+ WP_CLI::add_command();
+
+
+ // up wpc generate_floorplans --amount=10
+}
